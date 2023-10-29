@@ -11,13 +11,20 @@ body{
     background-color: white;
     width: 100%;
     margin-top: -97px;
+    z-index: 100000;
 }
 
 .header{
     display: flex;
     padding: 0px 400px;
-
+    justify-content: space-between;
 }
+
+.header-left{
+    display: flex;
+}
+
+
 .phone span{ 
     font-family: 'Montserrat';
 font-size: 16px;
@@ -46,7 +53,7 @@ letter-spacing: 0.48px;
 }
 
 .phone{
-    margin: 38.5px 0px 37.5px 515px;
+    margin: 38.5px 0px 37.5px 0px;
 }
 
 h1{
@@ -81,13 +88,38 @@ line-height: 150%; /* 24px */
 }
 
 .banner{
-    background-image: url("img/banner.png");
-    width: 100%;
+    background-image: url("img/banner.jpg");
     height: 594px;
     display: flex;
     background-size: 100%;
-    padding: 0px 400px;
+    padding: 36px 400px 58px;
     margin-top: 97px;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.banner-img img{
+    /* width: 1000px;
+    height: 570px; */
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+
+}
+
+.banner-img{
+    width: 60%;
+    position: relative;
+}
+
+.banner-text{
+    opacity: 0.8;
+background: rgba(139, 139, 139, 0.80);
+width: 446px;
+height: 164px;
+position: absolute;
+left: 100px;
+top: 250px;
 }
 
 .menu ul li{
@@ -117,6 +149,7 @@ line-height: 150%; /* 24px */
 
 footer{
     background-image: url("img/footer_background.jpg");
+    background-size: 100%;
 }
 
 .footer-top{
@@ -146,6 +179,129 @@ line-height: 150%; /* 24px */
 color: #fff;
 margin-left: 9px;
 }
+
+.footer-email1{
+    margin-top: 24px;
+    margin-right: 50px;
+}
+
+.footer-phone{
+    margin-top: 24px;
+
+}
+
+.footer-years span{
+    font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color:#FFF;
+}
+.footer-years{
+    margin-top: 43px;
+}
+
+.footer-bottom{
+    display: flex;
+    padding: 15px 400px 33px;
+    justify-content: space-between;
+}
+
+.footer-bottom__right{
+    display: flex;
+}
+
+.footer-privacy{
+    display: flex;
+    flex-flow: column;
+}
+
+.footer-privacy a{
+    color: #E7E5E5;
+
+/* Дополнительный текст */
+font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.footer-politics a, .footer-email2 a{
+    color:  #353535;
+/* Дополнительный текст */
+font-family:  "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.footer-email2 span{
+    color: #FFF;
+/* Дополнительный текст */
+font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-politics{
+    margin-bottom: 8px;
+}
+
+.footer-email2{
+    width: 634px;
+}
+
+.footer-privacy-logo{
+    margin-left: 22px;
+}
+
+.footer-privacy a:first-child{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.banner-text__top span{
+    color: #FFF;
+    font-family: "Montserrat";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 108%; /* 30.24px */
+}
+
+.banner-text__bottom span{
+    color: #1E1E1E;
+font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+}
+
+.banner-text__top{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 15px;
+    /* margin-bottom: 15px; */
+}
+
+.banner-text{
+    padding: 15px 54px 23px 43px;
+}
+
+.banner-text__bottom{
+    margin-top: 15px;
+
+}
+
+
+
 
 
 
